@@ -91,7 +91,7 @@ while l!=0:
     size=size+1  
 
     
-filename="Chun_Yang_SON.case" + sys.argv[1] + "_" + sys.argv[4]+".txt"
+filename="SON.case" + sys.argv[1] + "_" + sys.argv[4]+".txt"
 output_file = open(filename, "w")
 for i in range(len(output)):
     for j in range(len(output[i])):
